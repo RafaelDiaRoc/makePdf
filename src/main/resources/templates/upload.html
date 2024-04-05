@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="pt-BR" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload de PDF</title>
+</head>
+<body>
+    <form action="/merge" method="post" enctype="multipart/form-data">
+        <input type="file" name="files" accept="application/pdf" multiple>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
